@@ -121,7 +121,7 @@ main article#introduction div.gist section {
   position: relative;
   height: 100%;
   background-color: darkgoldenrod;
-  background-image: url("/assets/website-header.png");
+  background-image: url("https://hu-zza.github.io/Skywalker/assets/website-header.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
