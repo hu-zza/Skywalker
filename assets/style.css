@@ -32,7 +32,7 @@ nav a:hover {
 }
 
 main {
-  min-width: 600px;
+  min-width: 800px;
   max-width: 1200px;
   margin: 0 auto;
   color: cornsilk;
@@ -45,7 +45,7 @@ main article {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  padding: 69px 0 20px 0;
+  padding: 69px 0 20px;
 }
 
 main article:last-of-type {
@@ -68,19 +68,19 @@ main article > h2, h3, h4 {
 }
 
 main article div.details h2 {
-  margin: 25px 0 55px 0;
+  margin: 25px 0 55px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
 
 main article section h3 {
-  margin: 40px 0 20px 0;
+  margin: 40px 0 20px;
   font-size: 23px;
   line-height: 150%;
 }
 
 main article section h4 {
-  margin: -20px 0 0 0;
+  margin: -20px 0 0;
   font-family: "Merienda", cursive;
   font-size: 15px;
   font-weight: 700;  
@@ -94,7 +94,7 @@ main article blockquote {
   position: relative;
   box-sizing: border-box;
   width: 100%;
-  padding: 50px 47.5px 55px 47.5px;
+  padding: 50px 47.5px 55px;
   margin: 0;
   color: black;
   background: orange;
@@ -113,11 +113,11 @@ main article blockquote:before {
   font-size: 140px;  
 }
 
-main article#introduction {
+main article#bio {
   position: relative;  
 }
 
-main article#introduction div.gist section {
+main article#bio div.gist section {
   position: relative;
   height: 100%;
   background-color: darkgoldenrod;
@@ -128,34 +128,34 @@ main article#introduction div.gist section {
   background-blend-mode: color-burn;
 }
 
-main article#introduction div.gist section h2 {
+main article#bio div.gist section h2 {
   position: absolute;
   bottom: 5px;
   left: 20px;
   margin: 0;
   color: cornsilk;
   font-family: "Cinzel", serif;
-  font-size: 36px;
+  font-size: clamp(80%, 1rem + 1.75vw, 36px);
   font-weight: 500;
   line-height: 100%;
 }
 
-main article#introduction div.gist section h2 strong {
+main article#bio div.gist section h2 strong {
   display: block;
-  font-size: 72px;  
+  font-size: clamp(100%, 2rem + 2.75vw, 72px);  
   font-weight: 700;
   line-height: 100%;
 }
 
-main article#introduction div.details {
+main article#bio div.details {
   margin-bottom: 100px;
 }
 
-main article#introduction div.details section {
+main article#bio div.details section {
   font-size: 20.5px;
   line-height: 150%;
 }
 
-main article#introduction div.details strong {
+main article#bio div.details strong {
   font-weight: 600;
 }
