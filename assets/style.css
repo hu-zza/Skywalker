@@ -24,11 +24,13 @@ nav a {
   font-weight: 400;
   font-size: 30px;
   text-decoration: none;
+  transition: color 1s 0.3s, background 4s 0.3s;
 }
 
 nav a:hover {
   color: black;
   background: orange;
+  transition: color 1s 0.3s, background 4s 0.3s;
 }
 
 main {
@@ -64,7 +66,7 @@ main article div.details {
 }
 
 main article > h2, h3, h4 {
-  font-weight: 600;  
+  font-weight: 600;
 }
 
 main article div.details h2 {
@@ -83,7 +85,7 @@ main article section h4 {
   margin: -20px 0 0;
   font-family: "Merienda", cursive;
   font-size: 15px;
-  font-weight: 700;  
+  font-weight: 700;
 }
 
 main article section ul {
@@ -101,7 +103,7 @@ main article blockquote {
   font-family: "Cinzel", serif;
   font-size: 48px;
   font-weight: 700;
-  line-height: 150%;  
+  line-height: 150%;
 }
 
 main article blockquote:before {
@@ -110,11 +112,11 @@ main article blockquote:before {
   top: 40px;
   color: black;
   content: '“';
-  font-size: 140px;  
+  font-size: 140px;
 }
 
 main article#bio {
-  position: relative;  
+  position: relative;
 }
 
 main article#bio div.gist section {
@@ -142,7 +144,7 @@ main article#bio div.gist section h2 {
 
 main article#bio div.gist section h2 strong {
   display: block;
-  font-size: clamp(100%, 2rem + 2.75vw, 72px);  
+  font-size: clamp(100%, 2rem + 2.75vw, 72px);
   font-weight: 700;
   line-height: 100%;
 }
